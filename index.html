@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>beans&amp;toast | Justin Jesalva Web Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Justin Jesalva">
+        <meta name="description" content="Need a website designed and coded? Hi, my name is Justin Jesalva and I'm a Front-End Developer/Designer based in Omagh, NI.">
+        <meta name="keywords" content="HTML, CSS, HTML5, CSS3, JavaScript, jQuery, web design, front-end developer, front-end designer, design, designer, developer, Omagh, Northern Ireland">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,900|Nunito+Sans:900" rel="stylesheet">
+        <link href="beans.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!--/* To any beginners looking at my code and not seeing clearly how it works.
+* send me a message:justinjesalva13@gmail.com
+* I'd love to be of some help to you!
+* There's not a better feeling than learning together!
+*/-->
+        <nav id="topMenu" class="menu">
+            <div class="brand-logo js-slide"><a href="#"><img src="/Assets/beansandtoast.svg" alt="Brand logo."></a></div>
+
+            <ul class="menu-list bold">
+                <a data-scroll href="#about-me"><li class="menu-bold" content="who i am">who i am</li></a><br/>
+                <a data-scroll href="#myWork"><li class="menu-bold" content="my work">my work</li></a><br/>
+                <a data-scroll href="#workWithMe"><li class="menu-bold" content="work with me">work with me</li></a><br>
+                <a href="/Assets/Justin_Jesalva-Front_End_Resume.pdf" target="_blank"><li class="menu-bold" content="my resume">my resume</li></a>
+                
+            </ul>
+            <ul class="social thin small">
+                <li class="menu-light"><a href="https://www.instagram.com/tintactoe13/" target="_blank">instagram</a></li>
+                <li class="menu-light"><a href="https://codepen.io/tintactoe/" target="_blank">codepen</a></li>
+                <li class="menu-light"><a href="https://www.behance.net/justinjesa862c" target="_blank">behance</a></li>
+                <li class="menu-light"><a href="https://www.freecodecamp.com/fcc10f1f845" target="_blank">freecodecamp</a></li>
+                <li class="menu-light"><a href="mailto:justinjesalva13@gmail.com">email</a></li>
+            </ul>
+            <div class="social-icons js-slide">
+                <ul>
+                    <li title="Instagram"><a href="https://www.instagram.com/tintactoe13/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li title="Codepen"><a href="https://codepen.io/tintactoe/" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i></a></li>
+                    <li title="Codepen"><a href="https://www.behance.net/justinjesa862c" target="_blank"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                    <li title="FreeCodeCamp"><a href="https://www.freecodecamp.com/fcc10f1f845" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a></li>
+                    <li title="Email Me"><a href="mailto:justinjesalva13@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="burgerIcon">
+            <span></span>
+        </div>
+        <div class="body-wrapper popup-1 z-index">
+            <header class="hero hero-1 z-index popup-2">
+                <p class="typewriter center">Hi, I'm Justin Jesalva. <br> I like <br><span class="typed-element"></span></p>
+                <a data-scroll class="main-button thin popup center" href="#workWithMe">Work With Me</a>
+                <div class="page-scroll  thin center small">
+                    <a data-scroll href="#about-me"><p>Learn More About Me</p>
+                        <i class="fa fa-chevron-circle-down fa-lg" aria-hidden="true"></i></a>
+                </div>
+            </header>
+
+            <section id="about-me" class="wrapper about-me z-index center">
+                <div class="snippet preamble dark">
+                    <p>I'm a front-end developer from Omagh, Northern Ireland; striving to create beautiful, responsive websites and striking brand identities for small businesses and local clients.</p>
+                </div>
+                <section id="ccc">
+                    <div class="step">
+                        <i class="fa fa-pencil-square-o gold" aria-hidden="true"></i>
+                        <h2 class="title dark">Concept</h2>
+                        <p class="small grey thin-2">Every good design starts with a clear concept. First, I collaborate with the client to recognise the mission, the content, the demographic, and then generate a clear design direction for the project. </p>
+                    </div>
+                    <div class="step">
+                        <i class="fa fa-diamond gold" aria-hidden="true"></i>
+                        <h2 class="title dark">Create</h2>
+                        <p class="small grey thin-2">Creating wireframes, visualising use cases, I figure out the best structure based on the content. I design layouts, get the client's opinion, and iterate until a final visual design has been completed. </p>
+                    </div>
+                    <div class="step">
+                        <i class="fa fa-code gold" aria-hidden="true"></i>
+                        <h2 class="title dark">Code</h2>
+                        <p class="small grey thin-2">Using HTML5, CSS3, and Javascript, I convert the final ideas to a full functioning site making sure to test on different devices and browsers to make certain that all elements are pixel perfect on every screen.</p>
+                    </div>
+                </section>
+                <div class="dp z-index"></div>
+                <section class="note-wide popup-1">
+                    <h2 class="title dark small-title">Question and Answer</h2>
+                    <p class="question small dark">I mean, sure, beans on toast is arguably top 5 snack material, but why name your site after it?</p>
+                    <p class="answer small grey thin">First of all, great question. Second of all, my site is actually beansANDtoast not beansONtoast. I named it after the three things that accompany my mornings when I code: beans as in coffee, Beans as in my cat, and a couple slices of toast (or sometimes five).</p>
+                    <p class="question small dark">That's cool and all, but I still don't see why you decided to name your portfolio site that.</p>
+                    <p class="answer small grey thin">Wow, that's not even a question. And also, I see your point but by the time I realised I should've just called it <em>justinjesalva.com</em> my trial period was already over and it was too late to get a refund for this one. And I'm not about to pay for two domains when I only need one. That would just show bad business acumen.</p>
+                </section>
+            </section>
+
+            <section id="myWork" class="wrapper">
+                <h2 class="title bold center">My Work</h2>
+                <div class="work-wrapper">
+
+                    <a href="techdoc.html"><div class="work center popup-1">
+                        <h2 class="dark small-title">Techdoc</h2>
+                        <div class="work-image popup-1 wi-1"></div>
+                        <div class="work-details-wrapper popup-1">
+                            <p class="dark thin-2 small">Landing Page</p>
+                            <p class="darkgrey thin-2 skills">HTML, CSS, Javascript</p>
+                        </div>
+                        <p class="case-link grey thin">View Case</p>
+                        </div>
+                    </a>
+                    <a href="ecc.html"><div class="work center popup-1">
+                        <h2 class="dark small-title">ECC Church</h2>
+                        <div class="work-image popup-1 wi-3"></div>
+                        <div class="work-details-wrapper popup-1">
+                            <p class="dark thin-2 small">Branding</p>
+                            <p class="darkgrey thin-2 skills">Photoshop, Illustrator</p>
+                        </div>
+                        <p class="case-link grey thin">View Case</p>
+                        </div>
+                    </a>
+
+                    <a href="javascript:;"><div class="work center popup-1">
+                        <h2 class="dark small-title">Stefnoyess</h2>
+                        <div class="work-image popup-1 wi-2"></div>
+                        <div class="work-details-wrapper popup-1">
+                            <p class="dark thin-2 small">Logo Design</p>
+                            <p class="darkgrey thin-2 skills">Photoshop, Illustrator</p>
+                        </div>
+                        <p class="case-link grey thin">Available Soon</p>
+                        </div>
+                    </a>
+                </div>
+            </section>
+            
+            <section id="workWithMe" class="wrapper center">
+
+                <h2 class="title bold">Work With Me</h2>
+                <p><span class="preamble dark">Interested in working on a project together?</span> <span class="thin">Please fill out the form below and let me know more about the details! I promise to respond to you as soon as  I possibly can</span>. <span class="thin-2">Please use the email link at the top for now while I wrestle with PHP. I promise to get this bit working really soon!</span></p>
+                <section class="note-wide popup-1 contactForm">
+                    <form name="contactForm" action="#">
+                       
+                        <span class="formEntry"><label for="name" class="js-label small">Name <sup>*</sup></label>
+                        <input class="js-input small thin" type="text" name="name" maxlength="40" required></span>
+                        
+                        <span class="formEntry"><label for="email" class="js-label small">Email <sup>*</sup></label>
+                            <input class="js-input small thin" type="email" name="email" maxlength="40" required></span>
+                        
+                        <span class="formEntry"><label for="tel" class="js-label small">Phone Number</label>
+                            <input class="js-input small thin" type="tel" name="phoneNumber" maxlength="11"></span>
+                        
+                        <span class="formEntry"><label for="project" class="js-label small">Project</label>
+                            <input class="js-input small thin" type="text" name="project" maxlength="20"></span>
+                        
+                        <div class="formEntryWide"><label for="projectDetails" class="js-label small">Project Details <sup>*</sup></label>
+                        <textarea class="small thin-2 js-input" name="details" id="projectDetails" rows="5" placeholder="" required></textarea></div>
+                        
+                        <div class="formEntryWide center"><input class="popup-1 main-button thin" type="submit" name="send" value="Send" disabled> </div>
+
+                    </form>
+                </section>
+
+            </section>
+        </div>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer>
+            <div class="tilt-wrapper" data-tilt data-tilt-reset="false" data-tilt-perspective="900" data-tilt-max="60" data-tilt-speed="900" data-tilt-transition="true" data-tilt-easing="cubic-bezier(.03,.98,.52,.99)">
+                <img src="/Assets/beanswithtoastFluffyEvenCuter.svg" alt="Little cartoon cat holding a piece of toast.">
+            </div>
+            <p class="small thin-2">JUSTIN JESALVA &copy; 2017-2018</p><br>
+        </footer>
+        
+
+
+
+
+
+
+        
+
+        <script src="dist/js/smooth-scroll.js"></script>
+        <script>smoothScroll.init({
+                speed: 900,
+                easing: 'easeInOutCubic'
+            });</script>
+        <script type="text/javascript" src="/js/vanilla-tilt.js"></script>
+        <script type="text/javascript" src="/js/beans.js"></script>
+        <script type="text/javascript" src="/js/beansform.js"></script>
+        <script type="text/javascript" src="/js/typed.js"></script>
+        <script>document.addEventListener('DOMContentLoaded', function(){
+                Typed.new('.typed-element', {
+                    strings: ["drafting logos.", "designing user interfaces.", "creating landing pages.", "developing websites.", "cute cats (and alliteration)."],
+                    typeSpeed: 60,
+                    loop: true,
+                    backDelay: 1200,
+                    cursorChar: "|"
+                });
+            });</script>
+    </body>
+</html>
